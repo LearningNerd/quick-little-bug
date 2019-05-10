@@ -5,6 +5,7 @@ newUncaughtErrorHere();
 
 try {
   // bugAfterGitPush();
+  newBugBecauseOtherBugDidntTriggerAnIssue();
 } catch (err) {
   Sentry.captureException(err);
 }
