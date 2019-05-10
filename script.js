@@ -1,7 +1,7 @@
 console.log('hi');
 
 try {
-  immaBug();
+  bugAfterGitPush();
 } catch (err) {
   Sentry.captureException(err);
 }
