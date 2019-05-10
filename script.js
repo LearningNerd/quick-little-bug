@@ -1,7 +1,7 @@
 console.log('making another commit with no bugs...');
 console.log('new release! fixes bug, yayyy!');
 
-newUncaughtErrorHere();
+// newUncaughtErrorHere();
 
 try {
   // bugAfterGitPush();
